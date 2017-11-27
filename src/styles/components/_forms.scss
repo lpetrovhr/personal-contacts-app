@@ -1,0 +1,53 @@
+.form--main {
+	margin-top: 5%;
+	padding-left: 10%;
+
+	input {
+			display: block;
+			position: relative;
+			width: 50%;
+			margin: 20px 0 20px 0;
+			padding: 12px;
+			-webkit-box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+			border: 1px solid $grey;
+			border-radius: 4px;
+			outline: none;
+
+		&:focus {
+			border: 1px solid $blue;
+		}
+
+	}
+
+	label {
+		color: $blue;
+	}
+
+	&--field {
+		border-top: 1px solid $blue;
+	    margin: 20px 0 20px 0;
+	    padding-top: 20px;
+	}
+
+	&-left {
+		width: 20%;
+		display: inline-block;
+		vertical-align: top;
+
+		&_photo {
+			border-radius: 50%;
+			width: 200px;
+			height: 200px;
+		}
+	}
+
+	&-right {
+		width: 60%;
+		padding-top: 5%;
+		display: inline-block;
+	}
+
+
+}
